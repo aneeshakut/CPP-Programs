@@ -1,0 +1,6 @@
+Definition:
+  Memory consumption of an algorithm , as a function of length of input.
+
+Working:
+  initialized with constant => O(1)
+  initialized with variable => O(n)
