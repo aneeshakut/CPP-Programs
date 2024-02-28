@@ -1,0 +1,34 @@
+Definition: 
+  It is the amount of time taken by an algorithm to run , as a function of length of input.
+
+Uses:
+  For making more efficient solutions , Comparision of algorithms.
+
+Types:
+  Big O Notation: Worst case(used most often)
+  Theta Notation: Average case
+  Omega Notation: Best case
+
+Types:
+  constant = O(1)
+  linear = O(n)
+  logarithmic = O(logn)
+  quadratic = O(n^2)
+  cubic = O(n^3)
+
+Highest to Lowest Complexities:
+  O(1) > O(logn) > O(n) > O(nlogn) > O(n^2) > O(n^3) > O(2^n) > O(n!)
+
+Examples:
+Q)Find out time complexities of the following algorithmic functions:
+  1)f(n)=2n^2 + 3n => O(n^2)
+  2)f(n)=n^3 + logn => O(n^3)
+  3)f(n)=3n^4 + 3n^2 + 3 => O(n^4)
+  4)f(n)=1500 => O(1)
+
+Complexity Operations:
+  Seperate loops: Addition => O(n+m)
+  Nested loops: Multiplication => O(nm)
+
+10^8 Operation Rule:
+  Current machines can perform 10^8 operations / per second.
